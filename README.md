@@ -1,110 +1,112 @@
-# AWS Presales Portfolio
+# AWS Presales Architecture Review and Decision Support
 
-This repository presents a curated, public-safe AWS presales portfolio focused on structured discovery, solution validation, cost framing, and risk management.
+## Purpose
 
-It reflects how I approach AWS presales engagements in regulated, enterprise, and public-sector contexts, emphasizing clarity, predictability, and disciplined decision-making rather than delivery execution.
+This repository contains presales and advisory artifacts designed to support **early-stage architecture review, feasibility assessment, and decision support** in AWS contexts.
 
-This portfolio is intentionally anonymized and abstracted to demonstrate methodology and thinking, not proprietary customer or employer material.
-
----
-
-## What This Portfolio Demonstrates
-
-This repository illustrates how I operate across the full AWS presales lifecycle, including:
-
-- **Translating ambiguous business needs** into clear technical problem statements
-- **Qualifying opportunities** before committing deep technical effort
-- **Defining high-level AWS architectures** aligned with feasibility and constraints
-- **Framing cloud costs** as ranges with explicit assumptions
-- **Identifying and documenting** technical, operational, and compliance risks early
-- **Maintaining strict presales boundaries** to protect credibility and outcomes
-
-The focus is on decision enablement, not implementation.
+The focus is on **improving decision quality before commitment**, helping partners and stakeholders identify constraints, cost drivers, and governance risks **before engineering resources are engaged**.
 
 ---
 
-## What This Portfolio Intentionally Excludes
+## Scope and Intent
 
-To remain safe, portable, and professionally appropriate, this repository does not include:
+This repository is intentionally limited in scope.
 
-- Customer, partner, or employer names
-- Real architectures tied to live environments
-- Pricing figures, discounts, or commercial terms
-- Code, infrastructure templates, or delivery artifacts
-- Commitments related to timelines, SLAs, or operations
+It includes:
+- architecture viability decision trees
+- assumption-based cost and risk framing tools
+- governance and compliance checklists
+- presales qualification frameworks
 
-All examples are anonymized and conceptual.
+It explicitly excludes:
+- implementation guidance
+- delivery instructions
+- production-ready architectures
+- deployment templates or automation
+- client-specific solutions
 
----
-
-## Repository Structure
-
-```text
-aws-presales-portfolio/
-├── README.md
-├── 00-positioning/
-│   └── aws-presales-scope.md
-├── 01-case-studies/
-│   └── case-study-anonymized-public-sector-presales.md
-├── 02-presales-templates/
-│   ├── discovery-questionnaire.md
-│   ├── assumptions-and-limitations.md
-│   ├── presales-risk-log.md
-│   └── tor-rfp-technical-review.md
-├── 03-cost-modeling/
-│   └── aws-cost-modeling-methodology.md
-└── 04-security-and-governance/
-    └── security-baseline-presales.md
-```
-
----
-
-## How to Navigate
-
-- **00-positioning**  
-  Defines presales scope, responsibilities, and boundaries.
-
-- **01-case-studies**  
-  Demonstrates how the presales model is applied in a realistic, anonymized scenario.
-
-- **02-presales-templates**  
-  Reusable frameworks for discovery, qualification, risk management, and technical review.
-
-- **03-cost-modeling**  
-  Methodology for establishing financial predictability without false precision.
-
-- **04-security-and-governance**  
-  Presales-level security and compliance considerations that shape architecture and feasibility.
+These materials are **not** a delivery toolkit and should not be used as implementation blueprints.
 
 ---
 
 ## Intended Audience
 
-This portfolio is intended for:
+The content is intended for:
+- AWS presales professionals
+- partner architects involved in early qualification
+- technical decision-makers evaluating cloud feasibility
+- stakeholders responsible for cost, security, or governance oversight
 
-- AWS partners and distributors
-- Presales and solution architecture leaders
-- Recruiters evaluating senior presales capability
-- Stakeholders interested in disciplined, low-risk cloud adoption
-
-It is not a learning tutorial or a delivery reference.
+It is **not** intended for hands-on engineering teams seeking build instructions.
 
 ---
 
-## Professional Context
+## How to Use This Repository
 
-My background is in AWS presales, solution validation, and partner enablement, with a strong emphasis on operating discipline, governance, and realistic expectation-setting.
+Use these artifacts as **review and discussion tools**, not as prescriptive designs.
 
-Additional professional information is available at:
+Typical usage includes:
+- qualifying or disqualifying workloads early
+- validating assumptions before migration commitments
+- framing cost and licensing risks for stakeholders
+- identifying governance constraints that affect feasibility
 
-- Website: https://aleksandarnenov.com  
-- LinkedIn: https://www.linkedin.com/in/aleksandarnenov  
+If an artifact surfaces high risk or incompatibility, the correct outcome is often **to pause or stop**, not to redesign immediately.
+
+---
+
+## Artifact Status and Maintenance
+
+All artifacts in this repository are provided as **stable reference materials**.
+
+- Status: Stable reference
+- Intended use: Presales decision support
+- Maintenance: No active maintenance planned
+- Change control: Updates occur only when material assumptions or governance models change
+
+There is no commitment to evolve these materials into delivery-ready assets.
+
+---
+
+## Relationship to AWS and Partners
+
+This repository reflects **personal professional perspectives** developed through AWS presales and cloud advisory work.
+
+It:
+- does not represent AWS
+- does not represent any employer, partner, or vendor
+- does not imply endorsement or affiliation
+- does not constitute professional or commercial advice
+
+AWS and related service names are trademarks of their respective owners.
+
+---
+
+## Usage Disclaimer
+
+These materials support feasibility discussions and decision framing only.
+
+They do not constitute:
+- engineering specifications
+- delivery plans
+- security designs
+- cost guarantees
+- contractual or professional advice
+
+Responsibility for implementation decisions remains with the executing teams.
+
+---
+
+## License
+
+Unless stated otherwise, the contents of this repository are provided for reference and educational use only.
+
+No warranty is expressed or implied.
 
 ---
 
 ## Final Note
 
-Effective AWS presales is not about pushing technology.  
-It is about removing uncertainty so the next step is obvious, low-risk, and defensible.
+The value of presales work often lies in **preventing irreversible mistakes**, not in accelerating delivery.
 
-This repository exists to demonstrate that approach.
+This repository exists to support that upstream role.
